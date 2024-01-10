@@ -14,3 +14,74 @@ html, body {
     height: 100%;
     width: 100%;
 }
+
+#page1 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #EFEAE3;
+    position: relative;
+}
+
+/* ==============================NAVBAR======================= */
+
+nav {
+    padding: 2vw 2vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-part2 {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+#nav-part2 h3 {
+    padding: 10px 20px;
+    border: 1px solid #2d2c2c58;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #383737;
+    font-size: 18px;
+    position: relative;
+    transition: all ease 0.4s;
+    overflow: hidden;
+}
+
+#nav-part2 h3::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50px;
+    transition: all ease 0.4s;
+}
+
+#nav-part2 h3:hover::after {
+    bottom: 0;
+
+}
+
+#nav-part2 h3 a {
+    text-decoration: none;
+    color: #383737;
+    z-index: 9;
+    position: relative;
+}
+
+#nav-part2 h3:hover a {
+    color: #ffffff;
+}
+
+
+/* =======================HERO SECTION========================= */
+#center {
+    height: 65vh;
+    width: 100%;
+    background-color: red;
+}
