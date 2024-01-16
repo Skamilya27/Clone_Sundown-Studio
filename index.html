@@ -9,9 +9,14 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div id="fixed-image"></div>
     <div id="main">
       <div id="page1">
         <nav>
@@ -81,32 +86,136 @@
 
         <div id="page2-bottom">
           <h1>
-            We are a group of design-driven, goal-focused creators, producers, and designers who believe that the details make all the difference.
+            We are a group of design-driven, goal-focused creators, producers,
+            and designers who believe that the details make all the difference.
           </h1>
           <div id="bottom-part2">
-            <img src="./assets/img1.webp" alt="">
-            <p>We love to create, we love to solve, we love to collaborate, and we love to turn amazing ideas into reality. We’re here to partner with you through every step of the process and know that relationships are the most important things we build.</p>
+            <img src="./assets/img1.webp" alt="" />
+            <p>
+              We love to create, we love to solve, we love to collaborate, and
+              we love to turn amazing ideas into reality. We’re here to partner
+              with you through every step of the process and know that
+              relationships are the most important things we build.
+            </p>
           </div>
         </div>
 
-        <div id="center-circle">
-
+        <div class="featured-text">
+          <img src="./assets/favicon.png" alt="" />
+          <p>FEATURED PROJECTS</p>
         </div>
+
+        <div id="center-circle"></div>
       </div>
 
       <div id="page3">
+        <div id="elem-container">
+          <div class="elem" data-image="./assets/fixed-image1.webp">
+            <div class="overlay"></div>
+            <h2>AirForce 12021</h2>
+          </div>
+          <div class="elem" data-image="./assets/fixed-image2.webp">
+            <div class="overlay"></div>
+            <h2>SOHO 2023</h2>
+          </div>
+          <div class="elem" data-image="./assets/fixed-image3.webp">
+            <div class="overlay"></div>
+            <h2>SOHO NYC</h2>
+          </div>
+          <div class="elem" data-image="./assets/fixed-image4.webp">
+            <div class="overlay"></div>
+            <h2>Play New Kidvision</h2>
+          </div>
+          <div class="elem" data-image="./assets/fixed-image5.webp">
+            <div class="overlay"></div>
+            <h2>NYFW Popup</h2>
+          </div>
+          <div class="elem" data-image="./assets/fixed-image6.webp">
+            <div class="overlay"></div>
+            <h2>50th Anniversary</h2>
+          </div>
+          <div class="elem" data-image="./assets/fixed-image7.webp">
+            <div class="overlay"></div>
+            <h2>Makers Studio HOI</h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div id="page4"></div> -->
+
+      <div id="page5">
+        <div class="featured-text">
+          <img src="./assets/favicon.png" alt="" />
+          <p>WHO WE WORK WITH</p>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/slide-1.svg" alt="">
+              <p>Retained Production support across retail and events in NY, CHI, LA. Creative Design, Design Management, Production/Project Management, and execution of work from concept to installation across the Country.</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/slide-2.svg" alt="">
+              <p>Creative Concepting, Design, Design Management, Project Management, and execution of work from concept to installation across the Country. Cross functional communication and management of third party partners.</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/slide-3.svg" alt="">
+              <p>Production and design along with install oversight and execution support for the SoHo store opening on Broadway St, New York. Also working on creative and production work for a new store opening in Glendale, California.</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/slide-4.svg" alt="">
+              <p>Design and Production partner for Hunter Holiday 2022 Pop-in at Nordstrom 57th St, New York, including activations in Women’s, Men’s and Kid’s zones. Thirty-five (35) additional smaller take-downs in Nordstrom stores across the US. Concept design for Holiday boot customization events in stores across winter 2022.</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/slide-5.svg" alt="">
+              <p>Creative, Design, and Production Partner for 2023 CES. Scope Included creation of Branding Identity, Assets, and Digital Content, Design, Production design, Production oversight and Installation of client activations for IBM, Delta, Instacart, and more.</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/slide-6.svg" alt="">
+              <p>Creative, Design, and Production Partner for 2022 NY Fashion Week Pop-Up space. In Partnership with B-Reel scope including creation of Final Design, Design Assets, 3D Renders, Production design, Production/Partner oversight and creation of a two (2) story pop-up for Afterpay’s clients such as Crocs, JD Sports, Container Store, & Revolve.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="page6">
         
+      </div>
+    </div>
+    <div id="footer">
+      <div id="anime-shape1"></div>
+        <div id="anime-shape2"></div>
+        <div id="anime-shape3"></div>
+
+      <div id="footer-top">
+        <div id="top-left">
+          <h4>Work</h4>
+          <h4>Studio</h4>
+          <h4>Contact</h4>
+        </div>
+        <div id="top-right">
+          <div id="txt-top">
+            <p>Get industry insights and creative inspiration straight to your inbox.</p>
+          </div>
+          <div id="email">
+            <p>Email address</p>
+            <img src="./assets/email-arrow.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <img src="./assets/sundowntxt.svg" alt="" />
+      <div id="footer-bottom">
+        <p>Copyright © Sundown Studio</p>
+        <div id="footer-img">
+          <img src="./assets/footer.svg" alt="">
+          <p>Brooklyn, NY</p>
+        </div>
+        <p>Instagram</p>
+        <p>LinkedIn</p>
       </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
-      integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script> -->
-    <!-- <script src="script.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
